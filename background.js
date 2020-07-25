@@ -9,5 +9,4 @@ chrome.commands.onCommand.addListener(function(command) {
     default:
       console.log(`Command not found: ${expr}.`);
   }
-
 });
